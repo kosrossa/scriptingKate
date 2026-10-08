@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Lavishly+Yours&family=Limelight&display=swap');
+
+.lavishly-yours-regular,
+h1 {
+    font-family: "Lavishly Yours", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px
+}
+
+
+.Cormorant Garamond,
+body {
+    font-family: "Cormorant Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;
+    font-size: large;
+}
+
+header,
+footer {
+    background-color: rgb(90, 11, 11);
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background: #b89c77;
+    background: linear-gradient(180deg, rgba(184, 156, 119, 1) 0%, rgba(117, 64, 45, 1) 100%, rgba(237, 221, 83, 1) 100%);
+}
+
+.bg-chuuya {
+    background-color: #33110d;
+}
+
+.bg-dazai {
+    background-color: lab(82.14% 7.44 9.98);
+}
+
+section.bg-chuuya {
+    max-width: 960px;
+    margin: auto;
+    color: #ffffff;
+    padding: 15px;
+    margin-bottom: 50px;
+    -webkit-box-shadow: 9px 10px 14px 7px rgba(0, 0, 0, 0.64);
+    box-shadow: 9px 10px 14px 7px rgba(0, 0, 0, 0.64);
+    overflow: hidden;
+}
+
+section.bg-dazai {
+    max-width: 960px;
+    margin: auto;
+    color: hsl(0, 0%, 0%);
+    padding: 15px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    -webkit-box-shadow: 9px 10px 14px 7px rgba(0, 0, 0, 0.64);
+    box-shadow: 9px 10px 14px 7px rgba(0, 0, 0, 0.64);
+    overflow: hidden;
+
+}
+
+
+section.bg-dazai p {
+    text-align: left;
+
+}
+
+section.bg-chuuya img {
+    float: left;
+    margin-right: 50px;
+
+}
+
+section.bg-dazai img {
+    float: left;
+    margin-right: 50px;
+}
+
+section.sec-ref a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: auto
+}
+
+section.sec-ref {
+    text-align: center;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+
+}
+
+nav ul li {
+    float: left;
+}
+
+ul li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px 25px;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+}
+
+a {
+    color: hwb(0 100% 0%);
+}
+
+a:hover {
+    color: hwb(0 0% 0%);
+    text-decoration: none;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
