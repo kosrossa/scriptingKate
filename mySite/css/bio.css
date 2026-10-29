@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap');
+
+.limelight-regular,
+h1,
+h2 {
+    font-family: "Limelight", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.playpen-sans,
+body {
+    font-family: "Playpen Sans", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+header {
+    background-image: url(../images/forest3.jpg);
+    min-height: 60vh;
+    background-size: cover;
+    background-position: bottom;
+    color: antiquewhite;
+    -webkit-box-shadow: 9px 10px 14px 7px rgba(0, 0, 0, 0.64);
+    box-shadow: 9px 10px 14px 7px rgba(0, 0, 0, 0.64);
+
+}
+
+body {
+    background-color: #382727;
+    color: antiquewhite;
+}
+
+.me {
+    text-align: left;
+    background-color: rgb(71, 63, 51);
+    margin: 50px;
+    padding: 30px;
+    overflow: hidden;
+}
+
+.me img {
+    float: left;
+    margin-right: 50px;
+}
+
+.work {
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(134, 114, 90);
+    margin: 50px;
+}
+
+.photo {
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(134, 108, 100);
+    margin: 50px;
+}
+
+section {
+    -webkit-box-shadow: 9px 10px 14px 7px rgba(0, 0, 0, 0.64);
+    box-shadow: 9px 10px 14px 7px rgba(0, 0, 0, 0.64);
+}
+
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+
+}
+
+nav ul li {
+    float: left;
+}
+
+ul li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px 25px;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    -webkit-box-shadow: 9px 10px 14px 7px rgba(0, 0, 0, 0.64);
+    box-shadow: 9px 10px 14px 7px rgba(0, 0, 0, 0.64);
+}
+
+a {
+    color: hwb(0 100% 0%);
+}
+
+a:hover {
+    color: hwb(0 0% 0%);
+    text-decoration: none;
+}
+
+.bg-tan {
+    background-color: hsl(176, 15%, 20%);
+    padding: 30px;
+    -webkit-box-shadow: 9px 10px 14px 7px rgba(0, 0, 0, 0.64);
+    box-shadow: 9px 10px 14px 7px rgba(0, 0, 0, 0.64);
+}
+
+
+
+footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    background-color: hsl(0, 11%, 12%);
+}
+
+footer I {
+    font-size: 2.5rem;
+    color: rgb(255, 254, 254);
+}
